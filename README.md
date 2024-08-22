@@ -11,12 +11,6 @@ Data Types:
 
     The dataset has a mix of categorical (object), integer (int64), and floating-point (float64) data types.
 
-Potential Issues:
-
-    The TotalCharges column is of type object and might need conversion to float for numerical analysis.
-
-Next, I'll review your Jupyter notebook to gather details about the preprocessing, model training, and evaluation steps. ​
-
 ​
 
 The Jupyter notebook contains the following key steps:
