@@ -40,9 +40,7 @@ The Jupyter notebook contains the following key steps:
 
     Models are evaluated using metrics like accuracy, confusion matrix, ROC-AUC score, and classification reports.
     ROC Curve: The ROC curve is likely plotted for the models to compare their performance.
-
-I will now prepare a detailed report based on this information. ​
-
+   
 ​
 Customer Churn Prediction Project Report
 1. Project Overview
@@ -85,6 +83,11 @@ Several models were trained and evaluated to identify the best-performing model 
 
 6. Results and Conclusion
 
-    Best Model: The best-performing model (to be determined from your evaluation) will be highlighted, with its key metrics.
-    Insights: Insights gained from feature importance or SHAP values, explaining which factors contribute most to customer churn.
-    Recommendations: Based on the analysis, actionable recommendations to reduce churn, such as targeting high-risk customers with specific interventions.
+Model Performance: Multiple models were tested, and their performance was evaluated based on classification metrics and ROC-AUC scores. Among these models, Logistic Regression achieved the highest AUC-ROC score of 0.862, indicating strong performance in distinguishing between churn and non-churn customers.
+
+Confusion Matrix & ROC Curve: Confusion matrices and ROC curves were plotted for each model. These visualizations helped in understanding each model's balance between true positives and false positives, and the overall trade-offs between sensitivity and specificity.
+
+Model Selection: Based on the AUC-ROC score, Logistic Regression was selected as the best model for this task. This choice was likely due to its balance between simplicity and effectiveness in predicting churn.
+
+Conclusion
+The Logistic Regression model is the best-performing model in this case, achieving an AUC-ROC score of 0.862. This model can effectively predict customer churn, allowing the telecommunications company to take proactive measures in retaining customers at high risk of leaving. Future work could involve further feature engineering, trying ensemble methods, or exploring deeper neural networks if higher accuracy is desired
