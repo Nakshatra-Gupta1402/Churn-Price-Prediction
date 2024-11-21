@@ -1,4 +1,4 @@
-# Churn-Price-Prediction
+# Customer-Churn-Prediction
 Dataset Overview:
 
     Columns: 21 columns, including:
